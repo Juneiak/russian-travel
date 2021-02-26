@@ -1,6 +1,8 @@
 .cover {
-  max-width: 100%;
-  width: 1184px;
-  height: 740px;
+  min-height: 740px;
+  position: relative;
+  width: 93%;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }

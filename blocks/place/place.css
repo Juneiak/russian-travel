@@ -1,8 +1,8 @@
 .place {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(2, minmax(min-content, 1fr));
-  grid-template-rows: repeat(3, minmax(min-content, 1fr));
+  grid-template-columns: repeat(2, minmax(min-content, max-content));
+  grid-template-rows: repeat(3, minmax(min-content, max-content));
   row-gap: 48px;
   column-gap: 32px;
   grid-template-areas: 
@@ -10,6 +10,25 @@
   'image texts'
   'image texts';
   justify-items: start;
-  align-items: end;
-  width: 100%;
+  justify-content: center;
+  align-items: start;
+  width: 95%;
+  padding: 80px 0 0;
+}
+
+@media  screen and (max-width: 768px) {
+  .place {
+    grid-template-columns: 1 minmax(min-content, max-content);
+    grid-template-rows: repeat(4, minmax(min-content, max-content));
+    grid-template-areas:
+    'title'
+    'website'
+    'image'
+    'texts';
+    row-gap: 32px;
+    column-gap: 0;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
 }
