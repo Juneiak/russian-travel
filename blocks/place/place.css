@@ -12,7 +12,8 @@
   justify-items: start;
   justify-content: center;
   align-items: start;
-  width: 95%;
+  width: 93%;
+  max-width: 984px;
   padding: 80px 0 0;
 }
 
@@ -30,5 +31,6 @@
     justify-content: center;
     justify-items: center;
     align-items: center;
+    width: 100%;
   }
 }

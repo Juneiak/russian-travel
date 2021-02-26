@@ -2,29 +2,25 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-width: 928px;
-  max-width: 80%;
+  max-width: 928px;
+  width: 93%;
   font-size: 96px;
 }
 
-@media screen and (max-width: 1024px) {
-  .lead{
-    min-width: 768px;
-    max-width: 90%;
-    font-size: 96px;
-  }
-}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .lead{
-    min-width: 320px;
-    max-width: 100%;
     font-size: 75px;
   }
 }
 
+@media screen and (max-width:570px) {
+  .lead{
+    font-size: 55px;
+  }
+}
 @media screen and (max-width:425px) {
   .lead{
-    font-size: 70px;
+    font-size: 40px;
   }
 }

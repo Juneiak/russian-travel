@@ -6,7 +6,7 @@
   font-size: 18px;
   line-height: 1.6;
   align-self: start;
-  max-width: 480px;
+  max-width: 490px;
   display: block;
   margin: 0;
 }
@@ -20,5 +20,6 @@
 @media  screen and (max-width: 768px) {
   .place__paragraph {
   align-self: center;
+  width: 93%;
   }
 }

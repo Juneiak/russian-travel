@@ -4,6 +4,7 @@
   object-fit: contain;
   align-self: start;
   max-width: 460px;
+  min-width: 320px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -14,6 +15,12 @@
 
 @media screen and (max-width: 768px) {
   .place__image {
-    max-width: 340px;
+    max-width: 490px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .place__image {
+    max-width: 100%;
   }
 }

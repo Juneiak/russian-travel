@@ -5,4 +5,5 @@
   justify-content: flex-start;
   flex-direction: column;
   align-self: end;
+  justify-self: start;
 }
