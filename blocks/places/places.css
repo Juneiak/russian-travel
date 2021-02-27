@@ -1,11 +1,9 @@
 .places {
+  padding: 0 0 90px;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  margin: 0;
-  padding: 0 0 90px;
-  list-style: none;
 }
 
 @media screen and (max-width: 767px) {
