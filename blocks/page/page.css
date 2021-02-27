@@ -1,5 +1,6 @@
 div, ul, h1, h2, h3, li, p, img, section, header, footer, a, figure  {
   border: 1px solid red;
+  box-sizing: border-box;
 }
 
 .page {

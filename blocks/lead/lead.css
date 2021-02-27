@@ -3,10 +3,16 @@
   flex-direction: column;
   align-items: center;
   max-width: 928px;
-  width: 93%;
+  width: 91%;
   font-size: 96px;
+  padding: 48px 0 0;
 }
 
+@media screen and (max-width: 1024px) {
+  .lead{
+    width: 100%;
+  }
+}
 
 @media screen and (max-width: 767px) {
   .lead{

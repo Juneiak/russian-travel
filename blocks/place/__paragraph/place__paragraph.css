@@ -20,6 +20,11 @@
 @media  screen and (max-width: 768px) {
   .place__paragraph {
   align-self: center;
+  width: 100%;
+  }
+}
+@media  screen and (max-width: 506px) {
+  .place__paragraph {
   width: 93%;
   }
 }

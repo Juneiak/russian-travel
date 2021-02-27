@@ -12,12 +12,12 @@
   justify-items: start;
   justify-content: center;
   align-items: start;
-  width: 93%;
+  width: 91%;
   max-width: 984px;
   padding: 80px 0 0;
 }
 
-@media  screen and (max-width: 768px) {
+@media  screen and (max-width: 767px) {
   .place {
     grid-template-columns: 1 minmax(min-content, max-content);
     grid-template-rows: repeat(4, minmax(min-content, max-content));
@@ -32,5 +32,6 @@
     justify-items: center;
     align-items: center;
     width: 100%;
+    padding: 50px 0 0;
   }
 }
