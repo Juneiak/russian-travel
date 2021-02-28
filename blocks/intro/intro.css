@@ -1,9 +1,15 @@
 .intro {
   display: flex;
   flex-direction: column;
-  width: 91%;
-  max-width: 928px;
+  width: 100%;
+  max-width: 984px;
   padding: 92px 0;
+}
+
+@media screen and (max-width: 1090px) {
+  .intro{
+    max-width: 90.6%;
+  }
 }
 
 @media screen and (max-width: 1023px) {
